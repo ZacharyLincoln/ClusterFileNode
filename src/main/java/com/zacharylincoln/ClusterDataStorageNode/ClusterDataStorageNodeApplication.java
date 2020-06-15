@@ -26,7 +26,7 @@ public class ClusterDataStorageNodeApplication {
 
 	public static void setup(String ip) throws IOException {
 
-	    String masterNodeIp = "http://localhost:8080" + "/setUpNode";
+	    String masterNodeIp = "http://localhost:8080" + "/setUpNode?totalSpaceInBytes=10000";
 
 		URL api = new URL(masterNodeIp);
 
